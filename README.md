@@ -14,15 +14,15 @@ This program prompts the user to enter a number and classifies it as "POSITIVE,"
 ### Compilation and Execution
 1. Assemble the code:
    ```bash
-   nasm -f elf32 task1.asm -o task1.o
+   nasm -f elf32 question1.asm -o question1.o
    ```
 2. Link the object file:
    ```bash
-   ld -m elf_i386 task1.o -o task1
+   ld -m elf_i386 question1.o -o question1
    ```
 3. Run the program:
    ```bash
-   ./task1
+   ./question1
    ```
 
 ### How It Works
@@ -49,15 +49,15 @@ This program accepts an array of integers and reverses it in place without using
 ### Compilation and Execution
 1. Assemble the code:
    ```bash
-   nasm -f elf32 task2.asm -o task2.o
+   nasm -f elf32 question2.asm -o question2.o
    ```
 2. Link the object file:
    ```bash
-   ld -m elf_i386 task2.o -o task2
+   ld -m elf_i386 question2.o -o question2
    ```
 3. Run the program:
    ```bash
-   ./task2
+   ./question2
    ```
 
 ### How It Works
@@ -83,15 +83,15 @@ This program calculates the factorial of a user-provided number using a subrouti
 ### Compilation and Execution
 1. Assemble the code:
    ```bash
-   nasm -f elf32 task3.asm -o task3.o
+   nasm -f elf32 question3.asm -o question3.o
    ```
 2. Link the object file:
    ```bash
-   ld -m elf_i386 task3.o -o task3
+   ld -m elf_i386 question.o -o question3
    ```
 3. Run the program:
    ```bash
-   ./task3
+   ./question3
    ```
 
 ### How It Works
@@ -117,15 +117,15 @@ This program simulates a control system that reads a water level sensor value an
 ### Compilation and Execution
 1. Assemble the code:
    ```bash
-   nasm -f elf32 task4.asm -o task4.o
+   nasm -f elf32 question4.asm -o question4.o
    ```
 2. Link the object file:
    ```bash
-   ld -m elf_i386 task4.o -o task4
+   ld -m elf_i386 question4.o -o question4
    ```
 3. Run the program:
    ```bash
-   ./task4
+   ./question4
    ```
 
 ### How It Works
