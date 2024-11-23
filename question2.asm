@@ -17,10 +17,8 @@ _start:
     mov edx, 31        ; message length
     int 0x80           ; syscall
 
-    ; Read user input (simulated to save complexity)
-    ; For simplicity, we'll assume the user inputs 5 space-separated integers.
-    ; In a real-world application, you'd parse this input and populate the array.
-
+    ; Read user input 
+    
     ; Simulate hardcoded array (user input simulation)
     mov dword [array + 1], 1 ; First integer
     mov dword [array + 5], 2 ; Second integer
